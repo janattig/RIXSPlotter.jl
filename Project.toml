@@ -1,0 +1,7 @@
+name = "RIXSPlotter"
+uuid = "3749514d-a748-4f88-b18c-174dcf22618e"
+authors = ["Jan Attig <jattig@thp.uni-koeln.de>"]
+version = "0.1.0"
+
+[deps]
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
