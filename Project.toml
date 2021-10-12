@@ -5,3 +5,4 @@ version = "0.1.0"
 
 [deps]
 PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+RIXSCalculator = "6536fc2c-db61-11e8-39b1-39c6a5bcb6de"
