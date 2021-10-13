@@ -75,4 +75,4 @@ end
 
 
 # export functions
-export plotSpectrum
+export plot_spectrum
