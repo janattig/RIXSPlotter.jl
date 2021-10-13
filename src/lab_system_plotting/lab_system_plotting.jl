@@ -206,3 +206,4 @@ function plot_lab_system(
     axis("off")
 
 end
+export plot_lab_system

@@ -266,3 +266,6 @@ function plot_dq_dependence(ls :: LabSystem, arg, dq_values, energy_values :: Ve
     ylabel("intensity [a.u.]")
     legend()
 end
+
+# export the function
+export plot_dq_dependence
