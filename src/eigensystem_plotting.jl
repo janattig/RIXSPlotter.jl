@@ -17,6 +17,7 @@ function show_operator(op :: AbstractOperator)
     title("imaginary part")
     imshow(imag.(m)/maximum(imag.(m)), cmap="RdBu", vmin=-1.1, vmax=1.1)
 end
+export show_operator
 
 
 function show_energy_evolution(op :: AbstractOperator, parameter::Symbol, values; site=:all, subtract_GS::Bool = false, figsize::Tuple=(8,5), new_figure=true, dumpfile::String="", color="b", kwargs...)
@@ -73,6 +74,7 @@ function show_energy_evolution(op :: AbstractOperator, parameter::Symbol, values
     end
     set_parameter!(op, parameter, ba_param, site=site)
 end
+export show_energy_evolution
 
 function show_energy_evolution_with_parameters(op :: AbstractOperator, parameter::Symbol, values; site=:all, subtract_GS::Bool = false, figsize::Tuple=(8,5))
     figure(figsize=(figsize[1]+6, figsize[2]))
@@ -145,6 +147,7 @@ function show_energy_evolution_with_parameters(op :: AbstractOperator, parameter
     # tigten the layout
     tight_layout()
 end
+export show_energy_evolution_with_parameters
 
 
 
@@ -217,6 +220,7 @@ function showMPState_evolution(
     end
     legend()
 end
+export showMPState_evolution
 
 function showMPState_evolution_grouped(
         op :: AbstractOperator,
@@ -373,3 +377,4 @@ function showMPState_evolution_grouped(
     end
     legend()
 end
+export showMPState_evolution_grouped
