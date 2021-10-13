@@ -2,6 +2,7 @@ module RIXSPlotter
 
     # using
     using PyPlot
+    using LinearAlgebra
     using RIXSCalculator
 
     # include files
