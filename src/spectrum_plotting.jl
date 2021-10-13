@@ -1,14 +1,3 @@
-rc("figure", dpi=200)
-rc("font",  family="serif")
-rc("xtick", labelsize="x-small")
-rc("xtick", direction="in")
-rc("ytick", labelsize="x-small")
-rc("ytick", direction="in")
-rc("lines", linewidth=1)
-rc("figure", dpi=200)
-
-
-
 ################################################################################
 #
 #   Spectrum plotting functions

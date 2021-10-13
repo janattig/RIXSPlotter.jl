@@ -10,6 +10,6 @@ module RIXSPlotter
     include("spectrum_plotting.jl")
     include("lab_system_plotting/lab_system_plotting.jl")
     include("lab_system_plotting/momentum_transfer_plotting.jl")
-    
+
 
 end
