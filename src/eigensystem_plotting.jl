@@ -199,7 +199,7 @@ function showMPState_evolution(
         end
         sites_bs = unique([b.single_particle_basis[sps].site for sps in b[c[1]].occupation])
         si = length(sites_bs)
-        bs *= " |vac>"
+        bs *= " |vac⟩"
         bs_long = bs * "\t ($(round(c[3]*100, digits=2))%)"
         println(bs_long)
         plot(values, c[2].*100, label=bs, color=((si-1)/(s-1), 0, 1-(si-1)/(s-1)))
